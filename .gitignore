@@ -1,0 +1,7 @@
+data/
+collection/
+indexes/
+logs/
+hf_cache/
+full_log_*.json
+__pycache__/

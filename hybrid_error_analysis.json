@@ -1,0 +1,608 @@
+{
+    "fixed_by_hybrid": [
+        {
+            "query": "Who is older, Gabe Saporta or John S. Hall?",
+            "ground_truth": "John S. Hall",
+            "hybrid_prediction": "John S. Hall",
+            "baseline_prediction": "Gabe Saporta",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "When was the actor who plays Marius Josipovic in Sneaky Pete born?",
+            "ground_truth": "December 17, 1974",
+            "hybrid_prediction": "December 17, 1974",
+            "baseline_prediction": "June 1974",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Tedrow, Ohio lies close to which 241. 26 mi highway? ",
+            "ground_truth": "Ohio Turnpike",
+            "hybrid_prediction": "Ohio Turnpike",
+            "baseline_prediction": "County Road J",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Pippa Hinchleyplayed Elaine Fenwick on a British Soap opera shown on what channel?",
+            "ground_truth": "ITV",
+            "hybrid_prediction": "ITV",
+            "baseline_prediction": "Coronation Street",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "One of Central Dublin's most historic working-class neighbourhoods is the home to a football club who were the first ever winners of what cup?",
+            "ground_truth": "FAI Junior Cup",
+            "hybrid_prediction": "FAI Junior Cup",
+            "baseline_prediction": "Brideville F.C.",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Come from the Heart:was first recorded by an artist that sang what genre of music?",
+            "ground_truth": "country",
+            "hybrid_prediction": "Country",
+            "baseline_prediction": "Justin Timberlake",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Eleventh Dream Day and The Shins are both rock bands from where?",
+            "ground_truth": "United States",
+            "hybrid_prediction": "United States",
+            "baseline_prediction": "Chicago, Illinois, United States.",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "In between Liberty and MIT Technology Review which has a circulation of over 200,000?",
+            "ground_truth": "Liberty",
+            "hybrid_prediction": "Liberty",
+            "baseline_prediction": "MIT Technology Review",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Which film was released first, The Celluloid Closet or Station to Station?",
+            "ground_truth": "The Celluloid Closet",
+            "hybrid_prediction": "The Celluloid Closet",
+            "baseline_prediction": "1995",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Which writer died later, Agatha Christie or Clement Greenberg?",
+            "ground_truth": "Clement Greenberg",
+            "hybrid_prediction": "Clement Greenberg",
+            "baseline_prediction": "Agatha Christie",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Who wrote Tom Vaughan's popular 2008 film?",
+            "ground_truth": "Dana Fox",
+            "hybrid_prediction": "Dana Fox",
+            "baseline_prediction": "Tom Vaughan",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What Air Base became an airport that is home to the 101st Air Refueling wing of the Maine Air National Guard?",
+            "ground_truth": "Bangor Air National Guard Base",
+            "hybrid_prediction": "Bangor Air National Guard Base.",
+            "baseline_prediction": "Bangor International Airport.",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "The Sophia Amalia was named after the wife of a king that ruled which two countries in 1648?",
+            "ground_truth": "Denmark and Norway",
+            "hybrid_prediction": "Denmark and Norway",
+            "baseline_prediction": "Frederick III of Denmark and Norway.",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Which film director is younger, Manoel de Oliveira or Alfonso Cuar\u00f3n?",
+            "ground_truth": "Alfonso Cuar\u00f3n",
+            "hybrid_prediction": "Alfonso Cuar\u00f3n",
+            "baseline_prediction": "Alfonso Cuar\u00f3n (born 1961)",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Where was the Danish colony, in which the Scandinavian Collectors Club claims as part of their region and includes the islands of Saint Thomas, located?",
+            "ground_truth": "Caribbean",
+            "hybrid_prediction": "Caribbean.",
+            "baseline_prediction": "United States Virgin Islands",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "In what country was Cudjoe's leader born?",
+            "ground_truth": "Ghana",
+            "hybrid_prediction": "Ghana",
+            "baseline_prediction": "Jamaica",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Securinega and Zamioculcas are both examples of what?",
+            "ground_truth": "genus of plants",
+            "hybrid_prediction": "Genus of plants.",
+            "baseline_prediction": "Flowering plants.",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "An American who is a German literature translator and did a thesis on an Austrian prodigy born in 1874 taught at which university?",
+            "ground_truth": "University of Vienna",
+            "hybrid_prediction": "University of Vienna",
+            "baseline_prediction": "Vincent Kling, University of Vienna.",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Which building, the Metropolitan Life Insurance Company Tower or the 432 Park Avenue building, has two addresses?",
+            "ground_truth": "Metropolitan Life Insurance Company Tower",
+            "hybrid_prediction": "The Metropolitan Life Insurance Company Tower.",
+            "baseline_prediction": "1 Madison Avenue",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Who has a wider scope of profession,  Jos\u00e9 Echegaray or Graham Swift?",
+            "ground_truth": "Jos\u00e9 Echegaray",
+            "hybrid_prediction": "Jos\u00e9 Echegaray",
+            "baseline_prediction": "Lawyers' Christian Fellowship",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Which opera was performed first, Tha\u00efs or Euryanthe?",
+            "ground_truth": "Euryanthe",
+            "hybrid_prediction": "Euryanthe",
+            "baseline_prediction": "25 October 1823",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Which mountain, Masherbrum or Khunyang Chhish, is a taller mountain?",
+            "ground_truth": "Khunyang Chhish",
+            "hybrid_prediction": "Khunyang Chhish",
+            "baseline_prediction": "Masherbrum",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "which writer has the highest number of skill  Langston Hughes or  Ian McEwan",
+            "ground_truth": "Langston Hughes",
+            "hybrid_prediction": "Langston Hughes",
+            "baseline_prediction": "Ian McEwan",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "What team did the recipient of the 2007 Brownlow Medal play for?",
+            "ground_truth": "Geelong Football Club",
+            "hybrid_prediction": "Geelong Football Club",
+            "baseline_prediction": "Geelong",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What was the 2010 population of the city established around St. Mary's Mission?",
+            "ground_truth": "2,627",
+            "hybrid_prediction": "2,627",
+            "baseline_prediction": "2,765",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What year was the Leeds football club, which Arthur Hydes played, formed? ",
+            "ground_truth": "1919",
+            "hybrid_prediction": "1919",
+            "baseline_prediction": "1924",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Who is younger, Keisuke Kuwata or Moya Brennan?",
+            "ground_truth": "Keisuke Kuwata",
+            "hybrid_prediction": "Keisuke Kuwata",
+            "baseline_prediction": "Moya Brennan",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "\"A Summer in the Cage\" and \"American Hardcore\" are both what kind of film?",
+            "ground_truth": "documentary",
+            "hybrid_prediction": "Documentary",
+            "baseline_prediction": "Documentaries",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Which of the following board games accommodates up to 10 players: The Game of Life or the History of the World?",
+            "ground_truth": "The Game of Life",
+            "hybrid_prediction": "The Game of Life",
+            "baseline_prediction": "History of the World",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Which band was formed earlier: Marianas Trench or Tse Tse Fly?",
+            "ground_truth": "Tse Tse Fly",
+            "hybrid_prediction": "Tse Tse Fly",
+            "baseline_prediction": "Tse Tse Fly (1988)",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Charlie McDermott plays Axl Heck on a tv show that premiered in what date? ",
+            "ground_truth": "September 30, 2009",
+            "hybrid_prediction": "September 30, 2009",
+            "baseline_prediction": "2009",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Are the 1908 Ex parte Young and 1948 McCollum v. Board of Education United States Supreme Court cases related to each other in any way?",
+            "ground_truth": "no",
+            "hybrid_prediction": "No.",
+            "baseline_prediction": "Yes",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "What is the first year that the second largest university in Alabama fielded a football team?",
+            "ground_truth": "1892",
+            "hybrid_prediction": "1892",
+            "baseline_prediction": "1912",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Who had more stable members of their band, X or The La's?",
+            "ground_truth": "X",
+            "hybrid_prediction": "X",
+            "baseline_prediction": "Celebrity Skin",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Mawson  is an electoral district that includes the wine regional around which town 35 km south of Adelaide?",
+            "ground_truth": "McLaren Vale",
+            "hybrid_prediction": "McLaren Vale",
+            "baseline_prediction": "Ceduna.",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Are Xinxiang and Qionglai City both county-level cities?",
+            "ground_truth": "no",
+            "hybrid_prediction": "No",
+            "baseline_prediction": "Yes",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Who was the son and heir of Henry Beauclerc?",
+            "ground_truth": "William Adelin",
+            "hybrid_prediction": "William Adelin",
+            "baseline_prediction": "Henry I",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What man is credited eith inventing both the Leyden jar and the Tribometer?",
+            "ground_truth": "Pieter van Musschenbroek",
+            "hybrid_prediction": "Pieter van Musschenbroek",
+            "baseline_prediction": "Ewald Georg von Kleist",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What river runs along the neighborhood where Ashley Estes Kavanaugh's wedding was held?",
+            "ground_truth": "Potomac River",
+            "hybrid_prediction": "Potomac River.",
+            "baseline_prediction": "Georgetown.",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "The actor that played Gutthi on Comedy nights with Kapil Show also starred in what 2016 Punjabi film directed by Smeep Kang?",
+            "ground_truth": "Vaisakhi List",
+            "hybrid_prediction": "Vaisakhi List",
+            "baseline_prediction": "Sunil Grover",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Between two bands, Mastodon and Hole, which one has more members?",
+            "ground_truth": "Mastodon",
+            "hybrid_prediction": "Mastodon",
+            "baseline_prediction": "Hole",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Manni Sandhu worked with what singer that was born in 1977?",
+            "ground_truth": "Lehmber Hussainpuri",
+            "hybrid_prediction": "Lehmber Hussainpuri",
+            "baseline_prediction": "Kaka Bhaniawala",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What series did Tom Mandrake collaborate on that was based on a fictional superhero?",
+            "ground_truth": "Martian Manhunter",
+            "hybrid_prediction": "Martian Manhunter",
+            "baseline_prediction": "Grimjack",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "The Government Digital Service is overseen by the Chief Secretary to the Treasury, who is from which party?",
+            "ground_truth": "Conservative",
+            "hybrid_prediction": "Conservative",
+            "baseline_prediction": "Liberal Democrat",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Which member of Odd Future also had a guest appearance on the album too Cozy?",
+            "ground_truth": "Frank Ocean",
+            "hybrid_prediction": "Frank Ocean",
+            "baseline_prediction": "Lil Yachty",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Which team did Joe Buck's father broadcast for?",
+            "ground_truth": "St. Louis Cardinals",
+            "hybrid_prediction": "St. Louis Cardinals",
+            "baseline_prediction": "Cardinals",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What singer who was the seventh place finalist on the 7th season of American Idol first recorded the song Like My Mother Does",
+            "ground_truth": "Kristy Lee Cook",
+            "hybrid_prediction": "Kristy Lee Cook",
+            "baseline_prediction": "Brooke White",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Who starred in Umm-e-Kulsoom whose mother was Afshan Qureshi?",
+            "ground_truth": "Faisal Qureshi",
+            "hybrid_prediction": "Faisal Qureshi",
+            "baseline_prediction": "Faysal Qureshi",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "The character Jack from While You Were Sleeping was born in what year?",
+            "ground_truth": "1953",
+            "hybrid_prediction": "1953",
+            "baseline_prediction": "1995",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "whats the famous bavagheet by arun date?",
+            "ground_truth": "Shukratara",
+            "hybrid_prediction": "Shukratara",
+            "baseline_prediction": "\"Kahi Door Chale\"",
+            "reasoning_type": "bridge"
+        }
+    ],
+    "broken_by_hybrid": [
+        {
+            "query": "What occupation is shared by both Marge Piercy and Richard Aldington?",
+            "ground_truth": "poet",
+            "baseline_prediction": "Poet",
+            "hybrid_prediction": "Writer and poet.",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "What is the name of this French former footballer whom football fans refer the football player Wilfred Bamnjo to as?",
+            "ground_truth": "Mak\u00e9l\u00e9l\u00e9",
+            "baseline_prediction": "Mak\u00e9l\u00e9l\u00e9.",
+            "hybrid_prediction": "Didier Deschamps",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Which Skagen Painter favored naturalism along with Theodor Esbern Philipsen and Kristian Zahrtmann?",
+            "ground_truth": "Peder Severin Kr\u00f8yer",
+            "baseline_prediction": "Peder Severin Kr\u00f8yer",
+            "hybrid_prediction": "Johannes Larsen",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Which city has a higher population, Shanghai or Hengyang?",
+            "ground_truth": "Shanghai",
+            "baseline_prediction": "Shanghai",
+            "hybrid_prediction": "7,141,162",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "What studio helped produce both Return to Never Land and McFarland, USA?",
+            "ground_truth": "Walt Disney Pictures",
+            "baseline_prediction": "Walt Disney Pictures",
+            "hybrid_prediction": "Walt Disney Studios Home Entertainment.",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "James Fowle Baldwin helped design a historic railroad that operated in Massachusetts and whose line later operated as part of what?",
+            "ground_truth": "Boston and Maine Railroad's Southern Division",
+            "baseline_prediction": "Boston and Maine Railroad's Southern Division.",
+            "hybrid_prediction": "Boston and Lowell Railroad",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Are Stanley Elkin and Anne Tyler from the same country?",
+            "ground_truth": "yes",
+            "baseline_prediction": "Yes",
+            "hybrid_prediction": "No",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Which band was formed first, Goldfinger or The Fray?",
+            "ground_truth": "Goldfinger",
+            "baseline_prediction": "Goldfinger",
+            "hybrid_prediction": "1994",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Edwyn Collins and Ian Gillan both have which profession in common?",
+            "ground_truth": "singer",
+            "baseline_prediction": "Singer",
+            "hybrid_prediction": "Musician",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "When was the first stud book created for the breed of horse that came from Rotrou introducing Arabian horses to Perche?",
+            "ground_truth": "1883",
+            "baseline_prediction": "1883",
+            "hybrid_prediction": "1893",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Which band was formed first, Lit or Adorable?",
+            "ground_truth": "Adorable",
+            "baseline_prediction": "Adorable",
+            "hybrid_prediction": "Adorable (1990)",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "In what ecclesiastical province is Stephen Conway currently part of?",
+            "ground_truth": "Province of Canterbury",
+            "baseline_prediction": "Province of Canterbury.",
+            "hybrid_prediction": "Canterbury",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Where did the father of Edward Garrison Walker live when he wrote \"An Appeal to the Coloured Citizens of the World\"?",
+            "ground_truth": "Boston",
+            "baseline_prediction": "Boston",
+            "hybrid_prediction": "Boston, Massachusetts",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "San Francisco National Cemetery is located at a park that is part of what National Recreation Area?",
+            "ground_truth": "Golden Gate National Recreation Area",
+            "baseline_prediction": "Golden Gate National Recreation Area.",
+            "hybrid_prediction": "Presidio of San Francisco",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Who played for the 1983\u201384 New York Knicks season and also had a younger brother who played in the NBA during his career",
+            "ground_truth": "Bernard King",
+            "baseline_prediction": "Bernard King",
+            "hybrid_prediction": "Bernard King, Scooter McCray",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Are both Coldplay and Pierre Bouvier from the same country?",
+            "ground_truth": "no",
+            "baseline_prediction": "No",
+            "hybrid_prediction": "Canada",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "At what venue was the January 2, 2012 game featured the University of Louisville team?",
+            "ground_truth": "Mercedes-Benz Superdome",
+            "baseline_prediction": "Mercedes-Benz Superdome",
+            "hybrid_prediction": "Papa John's Cardinal Stadium.",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Osireion is located to the rear of the temple named after which New Kingdom Nineteenth Dynasty of Egypt pharaoh?",
+            "ground_truth": "Seti I",
+            "baseline_prediction": "Seti I",
+            "hybrid_prediction": "Merneptah",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What was the English football club Tottenham Hotspur  that Leonard Francis played for commonly referred to as ?",
+            "ground_truth": "Spurs",
+            "baseline_prediction": "Spurs",
+            "hybrid_prediction": "()",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Did Holland's Magazine and Moondance both begin in 1996?",
+            "ground_truth": "no",
+            "baseline_prediction": "No",
+            "hybrid_prediction": "Yes",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Are Skeptical Inquirer and The Progressive Populist both tabloid-style magazines?",
+            "ground_truth": "no",
+            "baseline_prediction": "No",
+            "hybrid_prediction": "Yes",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Which battle came first, the Battle of Okinawa or Operation Diadem?",
+            "ground_truth": "Operation Diadem",
+            "baseline_prediction": "Operation Diadem",
+            "hybrid_prediction": "Battle of Okinawa",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "who were James Hill and John Vereker, 6th Viscount Gort officers for?",
+            "ground_truth": "British Army",
+            "baseline_prediction": "British Army",
+            "hybrid_prediction": "Grenadier Guards",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "The third solo album by David Gates of Bread shares a name with a 1977 film directed by who?",
+            "ground_truth": "Herbert Ross",
+            "baseline_prediction": "Herbert Ross",
+            "hybrid_prediction": "Herbie Rosenfield",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What forim is Nicholas Dante most famous for writing in, musical, such as \"A Chorus Line\", or epic verse like \"Inferno\"?",
+            "ground_truth": "musical",
+            "baseline_prediction": "Musical",
+            "hybrid_prediction": "A Chorus Line",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Don Holmes played for the football club that is based in what eastern suburb of Perth?",
+            "ground_truth": "Bassendean",
+            "baseline_prediction": "Bassendean.",
+            "hybrid_prediction": "East Perth",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "In what year did the parent show of The URL with Phred Show end?",
+            "ground_truth": "2002",
+            "baseline_prediction": "2002",
+            "hybrid_prediction": "2001",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What year did Fifty Shades of Grey release?",
+            "ground_truth": "2011",
+            "baseline_prediction": "2011",
+            "hybrid_prediction": "2015",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What's the name of the differential equation that was developed by the German physicist who was the doctoral advisor to another German Physicist who identified the Stark effect?",
+            "ground_truth": "Lommel differential equation",
+            "baseline_prediction": "Lommel differential equation.",
+            "hybrid_prediction": "Lommel",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What occupations do Toshi and Emily Haines share?",
+            "ground_truth": "singer and songwriter",
+            "baseline_prediction": "Singer and songwriter.",
+            "hybrid_prediction": "Singer, songwriter.",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Which magazine was created first, Macworld or Soaps In Depth?",
+            "ground_truth": "Macworld",
+            "baseline_prediction": "Macworld",
+            "hybrid_prediction": "1984",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "During what race leading up to the 1994 Monaco Grand Prix was Roland Ratzenberger killed?",
+            "ground_truth": "San Marino Grand Prix",
+            "baseline_prediction": "San Marino Grand Prix",
+            "hybrid_prediction": "1994 San Marino Grand Prix",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "What type of bank organization is Pondicherry Gramin Bank that it operates in different States of India?",
+            "ground_truth": "Regional Rural Bank",
+            "baseline_prediction": "Regional Rural Bank.",
+            "hybrid_prediction": "Regional Rural Bank (RRB)",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Are Richard Yardumian and Edward Khantzian both Harvard psychiatry professors?",
+            "ground_truth": "no",
+            "baseline_prediction": "No",
+            "hybrid_prediction": "Yes",
+            "reasoning_type": "comparison"
+        },
+        {
+            "query": "Of the companies that sponsor the British League Riders Championship, which is owned and operated by Goodyear Tire and Rubber Company?",
+            "ground_truth": "Dunlop",
+            "baseline_prediction": "Dunlop",
+            "hybrid_prediction": "Dunlop Tyres",
+            "reasoning_type": "bridge"
+        },
+        {
+            "query": "Who was from farther west, Max Neufeld or Eduard Zahariev?",
+            "ground_truth": "Max Neufeld",
+            "baseline_prediction": "Max Neufeld",
+            "hybrid_prediction": "Austria",
+            "reasoning_type": "comparison"
+        }
+    ]
+}
