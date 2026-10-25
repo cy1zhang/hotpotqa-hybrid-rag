@@ -1,4 +1,4 @@
-data/
+data/bm25_top20_cache.json
 collection/
 indexes/
 logs/

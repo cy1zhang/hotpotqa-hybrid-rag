@@ -6,8 +6,8 @@ them with dense embedding search through Reciprocal Rank Fusion (RRF). The
 answers come from Llama 3 8B Instruct, and the hybrid is better at every
 context size tested, by up to 2.9 points of exact match.
 
-It was developed and run on Purdue's Scholar GPU cluster, and moved here from the cluster with its code
-and results; the dataset, search index and per-question logs stay out of the repo.
+It was developed and run on Purdue's Scholar GPU cluster, and moved here from the cluster with its code,
+data and results; the search index and per-question logs are rebuilt by the scripts, so they stay out of the repo.
 
 ## Pipeline
 
@@ -65,9 +65,7 @@ with `huggingface-cli login`, or set `HF_TOKEN`).
 pip install -r requirements.txt
 ```
 
-Put the data in `data/`: `dev.jsonl` (HotpotQA dev questions, one JSON object
-per line with `question`, `answer` and `type`) and `wiki_snippets_dev.json`
-(each question mapped to its candidate Wikipedia passages). Then:
+Then run the steps in order:
 
 ```bash
 python 1_build_bm25_cache.py      # collection/, indexes/, data/bm25_top20_cache.json
@@ -79,3 +77,15 @@ python 4_error_analysis.py        # hybrid_error_analysis.json
 `run_baseline.slurm` and `run_hybrid.slurm` run steps 2 and 3 as Slurm jobs
 (one GPU, 4-hour limit each). `HF_HOME` sets where models are cached
 (default `./hf_cache`).
+
+## Data
+
+- `data/dev.jsonl`: the 1,110 HotpotQA dev questions, one JSON object per line
+  with `_id`, `question`, `answer`, `type` and `level`.
+- `data/wiki_snippets_dev.json`: each question mapped to its 20 candidate
+  Wikipedia passages, the corpus that step 1 indexes.
+
+The questions come from [HotpotQA](https://hotpotqa.github.io/) (Yang et al.,
+2018) and the passages from Wikipedia, both under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); these files are
+shared under the same license.
