@@ -6,10 +6,8 @@ them with dense embedding search through Reciprocal Rank Fusion (RRF). The
 answers come from Llama 3 8B Instruct, and the hybrid is better at every
 context size tested, by up to 2.9 points of exact match.
 
-Final project for Purdue's AI Forge course (CS 390). It was developed and run
-on Purdue's Scholar GPU cluster, and moved here from the cluster with its code
-and results; the dataset, search index and per-question logs stay out of the
-repo.
+It was developed and run on Purdue's Scholar GPU cluster, and moved here from the cluster with its code
+and results; the dataset, search index and per-question logs stay out of the repo.
 
 ## Pipeline
 
